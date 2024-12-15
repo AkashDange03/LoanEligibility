@@ -11,10 +11,6 @@ https://www.kaggle.com/datasets/altruistdelhite04/loan-prediction-problem-datase
 
 * Model Integration: The application integrates a pre-trained machine learning model that has been trained on historical loan data.
 
-* Customizability: The project provides flexibility for users to customize and improve the prediction model according to their specific requirements.
-
-* Scalability: The web application is built using the Express.js framework, ensuring scalability to handle a large number of concurrent users.
-
 # Technologies Used
 * Node.js: The server-side runtime environment that powers the web application.
 * Express.js: A fast and minimalist web framework for Node.js that handles routing and middleware.
