@@ -35,7 +35,7 @@ Before running the application, make sure you have the following installed:
 # Installation
 1.Clone the repository:
 ```
-git clone https://github.com/viveklistenus/Loan_Prediction_Web_Application.git
+git clone https://github.com/AkashDange03/LoanEligibility.git
 ```
 2.Install the required Node.js dependencies:
 ```
@@ -43,6 +43,12 @@ cd loan-prediction-web-app
 npm init
 npm install
 ```
+
+3.Install the required python dependencies:
+```
+pip install pandas joblib scikit-learn
+```
+
 # Usage
 * Start the Node.js server:
 ```
@@ -53,26 +59,7 @@ node server.js
 * Click the "Submit" button.
 * The application will process the input and display the prediction result.
 
-# Screenshots
-![1](https://github.com/viveklistenus/Loan_Prediction_Web_Application/assets/28853520/04542ba5-eeef-48d7-97ec-d6893a3a688f)
 
-![2](https://github.com/viveklistenus/Loan_Prediction_Web_Application/assets/28853520/b7b295d7-0b30-4ee4-b24a-e8f2d5b4ecac)
-
-![3](https://github.com/viveklistenus/Loan_Prediction_Web_Application/assets/28853520/ccac12e9-be12-4ba2-8b8e-aa8459b82dc7)
-
-![4](https://github.com/viveklistenus/Loan_Prediction_Web_Application/assets/28853520/fa10284c-88f9-4b91-a7b8-8f1d63b9b9a9)
-
-# Customization
-If you want to customize or improve the model, follow these steps:
-
-* Modify the loan_prediction.py file to update the prediction logic.
-* Train a new model using your preferred machine learning algorithm.
-* Save the trained model as model.joblib in the project directory.
-* Update the loan_prediction.py file in the Express.js server code to reflect any changes made to the model.
-* Restart the server to apply the changes.
-
-# Contributing
-Contributions are welcome! If you find any issues or have suggestions for improvements, please submit a pull request or open an issue.
 
 
 
